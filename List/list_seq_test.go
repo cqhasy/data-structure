@@ -31,7 +31,7 @@ func TestNewSeqList(t *testing.T) {
 }
 
 // 测试 Append：正常追加、扩容场景、多次追加
-func TestAppend(t *testing.T) {
+func TestAppendOfSeq(t *testing.T) {
 	// 场景1：正常追加（不触发扩容）
 	t.Run("append_without_expand", func(t *testing.T) {
 		sl := NewSeqList[int](3)

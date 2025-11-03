@@ -2,7 +2,9 @@
 
 package List
 
-import "log"
+import (
+	"log"
+)
 
 const (
 	DefaultCap = 10
